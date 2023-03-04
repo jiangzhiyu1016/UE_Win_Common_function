@@ -64,7 +64,7 @@ Invoke the functions specified by the function with the specified parameters. Re
 17. Get the screen width
 18. Get the screen height
 
-|  Name of function   | arg1  |
+| Action  | Code  |
 |  ----  | ----  |
 | 单元格  | 单元格 |
 | 单元格  | 单元格 |
@@ -72,3 +72,5 @@ Invoke the functions specified by the function with the specified parameters. Re
 |  ----  | ----  |
 | 单元格  | 单元格 |
 | 单元格  | 单元格 |
+
+
