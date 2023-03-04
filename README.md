@@ -17,4 +17,6 @@ Invoke the functions specified by the function with the specified parameters. Re
 # function declaration
 ## Call_Api(FString arg1_str1, FString arg1_str2,int arg_int1,int arg_int2,int arg_int3);
 
-* Call_Api
+* Get the current running directory    Call_Api(,,,,1)
+* Gets the execution file name         Call_Api(,,,,2)
+* Read environment variables           Call_Api("environment variables name",,,,3)
