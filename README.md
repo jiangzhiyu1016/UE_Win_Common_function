@@ -20,14 +20,14 @@ Invoke the functions specified by the function with the specified parameters. Re
 # function declaration
 ## Call_Api(FString arg1_str1, FString arg1_str2,int arg_int1,int arg_int2,int arg_int3);
 
-* Get the current running directory    Call_Api(,,,,1)
-* Gets the execution file name         Call_Api(,,,,2)
-* Read environment variables           Call_Api("environment variables name",,,,3)
+1. Get the current running directory    Call_Api(,,,,1)
+2. Gets the execution file name         Call_Api(,,,,2)
+3. Read environment variables           Call_Api("environment variables name",,,,3)
 
 ![image](https://user-images.githubusercontent.com/56686900/222879197-0df6e22e-8e1a-4da9-b2f4-d807b47ecdb3.png)
 
-* Write environment variables           Call_Api("environment variables name","environment variables value",,,3)
-* Gets the specified directory          Call_Api(,,int1,,4)
+4. Write environment variables           Call_Api("environment variables name","environment variables value",,,4)
+5. Gets the specified directory          Call_Api(,,int1,,4)
 > int1=1    my documents dir
 > 
 > int1=2    my favorite dir
@@ -50,5 +50,16 @@ Invoke the functions specified by the function with the specified parameters. Re
 > 
 > int1=11   my Temporary file directory 
 
-
-
+6. Gets the number of CPU cores    Call_Api(,,,,6)
+7. Whether to display the mouse pointer     true   Call_Api(,,1,,6)   False  Call_Api(,,0,,7)
+8. Gets the horizontal and vertical position of the mouse on the display(Return X|Y)   Call_Api(,,0,,8) 
+9. get  the system interface scale dpi   Call_Api(,,0,,9) 
+10. Lock or unlock keyboard and mouse input events for the current program
+11. Returns the total amount of time in milliseconds since the computer system started.
+12. Start the corresponding external program to open and browse the specified hyperlink address
+13. Runs the specified executable file or external command
+14. Gets the clipboard text
+15. Place clipboard text
+16. Clear the clipper
+17. Get the screen width
+18. Get the screen height
