@@ -63,6 +63,11 @@ Invoke the functions specified by the function with the specified parameters. Re
 16. Clear the clipper
 17. Get the screen width
 18. Get the screen height
+
+|  表头   | 表头  |
+|  ----  | ----  |
+| 单元格  | 单元格 |
+| 单元格  | 单元格 |
 |  表头   | 表头  |
 |  ----  | ----  |
 | 单元格  | 单元格 |
