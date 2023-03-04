@@ -25,10 +25,7 @@ Invoke the functions specified by the function with the specified parameters. Re
 
 | Windows Action | Call args(str1,str2,int1,int2,int3) | detail |
 | --- | --- | --- |
-| Get the current running directory 
- | Call_Api(,,,,1) | 
-- Gets the running directory of the current software
- |
+| Get the current running directory | Call_Api(,,,,1) | - Gets the running directory of the current software |
 | 
 2. Gets the execution file name 
  | Call_Api(,,,,2) | 
