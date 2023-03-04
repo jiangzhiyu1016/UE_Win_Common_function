@@ -21,18 +21,12 @@ Invoke the functions specified by the function with the specified parameters. Re
 ## Call_Api(FString arg1_str1, FString arg1_str2,int arg_int1,int arg_int2,int arg_int3);
 
 
-
-
 | Windows Action | Call args(str1,str2,int1,int2,int3) | detail |
 | --- | --- | --- |
-| Get the current running directory | Call_Api(,,,,1) | - Gets the running directory of the current software |
-| 
-2. Gets the execution file name 
- | Call_Api(,,,,2) | 
+| Get the current running directory  | Call_Api(,,,,1) | Gets the running directory of the current software |
+| Gets the execution file name  | Call_Api(,,,,2) | 
  |
-| 
-3. Read environment variables
- |  Call_Api("environment variables name",,,,3) | 
+| Read environment variables |  Call_Api("environment variables name",,,,3) | 
  |
 | 
 4. Write environment variables
@@ -71,43 +65,3 @@ False Call_Api(,,0,,10) |  |
  |  Call_Api(,,,,11) 
  |  |
 | 
-12. Start the corresponding external program to open and browse the specified hyperlink address
- |  Call_Api(url,,int1,,12)  | url:
-- Can be similar to "http://www.baidu.com", "file://c:\\abc.txt traditional address" text, 
-- It can also be the "browse:// file path "address text (used to boot the operating system resource manager 
-- Handles and locates the specified file).
-
-int1:
-- Provides the window display of the program to be started, as one of the following values: 
-- -1: Default; 0: Hide; 1. Usually; 2: minimize; 3: Maximize
- |
-| 
-13. Runs the specified executable file or external command
- |  Call_Api(url,,int1,int2,13)  | url:
-- The command line to run
-
-int1:
-- Whether to wait for the program to complete(0 or 1  is false or True)
-
-int2:
-- Run program window display mode
-- 1: Normal activation; 2: Hide; 3. Normal not activation;
- |
-| 
-14. Gets the clipboard text
- | Call_Api(,,,,14)  |  |
-| 
-15. Place clipboard text
- | Call_Api(str1,,,,15)  | str1: 
-- Text to put on the clipboard
- |
-| 
-16. Clear the clipper
- | Call_Api(,,,,16)  |  |
-| 
-17. Get the screen width
- | Call_Api(,,,,17)  |  |
-| 
-18. Get the screen height
- | Call_Api(,,,,18)  |  |
-
