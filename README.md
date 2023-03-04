@@ -12,6 +12,9 @@ Invoke the functions specified by the function with the specified parameters. Re
 
 2. Example of call
 
+![image](https://user-images.githubusercontent.com/56686900/222879197-0df6e22e-8e1a-4da9-b2f4-d807b47ecdb3.png)
+
+
 如图
 
 # function declaration
@@ -20,3 +23,7 @@ Invoke the functions specified by the function with the specified parameters. Re
 * Get the current running directory    Call_Api(,,,,1)
 * Gets the execution file name         Call_Api(,,,,2)
 * Read environment variables           Call_Api("environment variables name",,,,3)
+
+![image](https://user-images.githubusercontent.com/56686900/222879197-0df6e22e-8e1a-4da9-b2f4-d807b47ecdb3.png)
+
+
