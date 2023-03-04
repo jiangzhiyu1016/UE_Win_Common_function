@@ -20,9 +20,5 @@ Invoke the functions specified by the function with the specified parameters. Re
 # function declaration
 ## Call_Api(FString arg1_str1, FString arg1_str2,int arg_int1,int arg_int2,int arg_int3);
 
+![image](https://user-images.githubusercontent.com/56686900/222882740-dbdb895e-0fc6-4a3e-aaf3-f5d85687bec0.png)
 
-![image](https://user-images.githubusercontent.com/56686900/222882615-069a1a1d-319e-4f54-8242-28fe533d665a.png)
-
-![image](https://user-images.githubusercontent.com/56686900/222882649-72786b1b-febf-4c71-8c36-2a00aaa39215.png)
-
-![image](https://user-images.githubusercontent.com/56686900/222882657-a2295b2f-1171-4037-9c8a-da66ece88184.png)
